@@ -3,7 +3,7 @@
 /**
  * Plugin Name: SocialDivi
  * Description: A simple extension on the social icons available in Divi
- * Version: 1.0.0
+ * Version: 0.0.1
  * Author: Jelle Roorda
  * Author URI: https://roordaict.nl
  * Text Domain: social-divi
