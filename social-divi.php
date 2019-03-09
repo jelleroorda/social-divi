@@ -20,5 +20,5 @@ if (!defined('SOCIAL_DIVI_PLUGIN_FILE')) {
     define('SOCIAL_DIVI_PLUGIN_FILE', __FILE__);
 }
 
-// Boostrap plugin
+// Bootstrap plugin
 include_once dirname(__FILE__) . '/src/bootstrap.php';
