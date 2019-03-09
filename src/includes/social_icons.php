@@ -1,12 +1,15 @@
+<?php global $social_divi_available_icons; ?>
+
 <ul class="et-social-icons">
 
-Testing purposes
-<?php /*if ( 'on' === et_get_option( 'divi_show_facebook_icon', 'on' ) ) : ?>
-	<li class="et-social-icon et-social-facebook">
-		<a href="<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>" class="icon">
-			<span><?php esc_html_e( 'Facebook', 'Divi' ); ?></span>
-		</a>
-	</li>
-<?php endif;*/ ?>
+<?php foreach ($social_divi_available_icons as $icon) : ?>
+	<?php if ('on' === et_get_option("social_divi_{$icon['name']}_enabled", 'off')) : ?>
+		<li class="et-social-icon social-divi-<?php echo $icon['name']; ?>">
+			<a href="<?php echo esc_url(et_get_option("social_divi_{$icon['name']}_url", '#')); ?>" class="icon">
+				<span><?php esc_html($icon['translated_name']); ?></span>
+			</a>
+		</li>
+	<?php endif; ?>
+<?php endforeach; ?>
 
 </ul>
