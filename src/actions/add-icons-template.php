@@ -7,5 +7,5 @@
  */
 add_action("get_template_part_includes/social_icons", 'social_divi_add_icons');
 function social_divi_add_icons() {
-    include '../includes/social_icons.php';
+    include __DIR__ . '/../includes/social_icons.php';
 }
