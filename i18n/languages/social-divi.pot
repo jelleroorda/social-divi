@@ -1,0 +1,66 @@
+# Copyright (C) 2019 Jelle Roorda
+# This file is distributed under the same license as the SocialDivi plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SocialDivi 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-divi\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-03-09T15:21:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.1.0\n"
+"X-Domain: social-divi\n"
+
+#. Plugin Name of the plugin
+msgid "SocialDivi"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple extension on the social icons available in Divi"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jelle Roorda"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://roordaict.nl"
+msgstr ""
+
+#: src/theme-options.php:9
+msgctxt "tab header in theme options"
+msgid "Social icons"
+msgstr ""
+
+#: src/theme-options.php:46
+msgctxt "form field title"
+msgid "Enable %s"
+msgstr ""
+
+#: src/theme-options.php:50
+msgctxt "form field description"
+msgid "Enabling this option will display an icon for %s in the header and footer"
+msgstr ""
+
+#: src/theme-options.php:55
+msgctxt "form field title"
+msgid "%s profile url"
+msgstr ""
+
+#: src/theme-options.php:59
+msgctxt "form field description"
+msgid "The url to the profile for your %s account"
+msgstr ""
+
+#: src/options.php:14
+msgctxt "Icon name in the interface"
+msgid "soundcloud"
+msgstr ""
+
+#: src/options.php:18
+msgctxt "Icon name in the interface"
+msgid "facebook"
+msgstr ""
