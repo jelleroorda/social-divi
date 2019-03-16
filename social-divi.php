@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: SocialDivi
+ * Plugin Name: Social Divi
  * Plugin URI: https://github.com/jelleroorda/social-divi
  * Description: A simple extension on the social icons available in Divi. Requires the Font Awesome plugin to function.
  * Version: 1.0.0
@@ -25,7 +25,7 @@ if (!defined('SOCIAL_DIVI_PLUGIN_FILE')) {
 add_action('admin_init', 'check_for_font_awesome');
 function check_for_font_awesome()
 {
-    if (is_admin() && current_user_can('activate_plugins') &&  !is_plugin_active('font-awesome/font-awesome.php')) {
+    if (is_admin() && current_user_can('activate_plugins') && !is_plugin_active('font-awesome/font-awesome.php')) {
         add_action('admin_notices', 'social_divi_needs_font_awesome');
 
         deactivate_plugins(plugin_basename(__FILE__));
