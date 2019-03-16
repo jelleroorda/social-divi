@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Social Divi
  * Plugin URI: https://github.com/jelleroorda/social-divi
- * Description: A simple extension on the social icons available in Divi. Requires the Font Awesome plugin to function.
+ * Description: A simple extension on the social icons available in Divi. Requires the <a href="https://wordpress.org/plugins/font-awesome/">Font Awesome plugin</a> to function (for the icons).
  * Version: 1.0.0
  * Author: Jelle Roorda
  * Author URI: https://roordaict.nl
