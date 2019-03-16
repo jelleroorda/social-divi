@@ -31,7 +31,7 @@ This plugin enables the following icons:
 ## Usage
 
 After activating the plugin, you will see a 'Social Icons' tab in the 'Theme options' of Divi.
-You will be enable icons like you would normally do with the default icons.
+You will be able to enable icons like you would normally do with the default icons.
 
 ![](https://i.imgur.com/nLnfz6v.png)
 
