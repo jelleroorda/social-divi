@@ -2,20 +2,24 @@
 # This file is distributed under the same license as the SocialDivi plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: SocialDivi 0.1.0\n"
+"Project-Id-Version: SocialDivi 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-divi\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-03-16T12:39:49+00:00\n"
+"POT-Creation-Date: 2019-03-16T13:53:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.1.0\n"
 "X-Domain: social-divi\n"
 
 #. Plugin Name of the plugin
 msgid "SocialDivi"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/jelleroorda/social-divi"
 msgstr ""
 
 #. Description of the plugin
@@ -30,27 +34,27 @@ msgstr ""
 msgid "https://roordaict.nl"
 msgstr ""
 
-#: social-divi.php:40
+#: social-divi.php:42
 msgctxt "Error message when Font Awesome plugin is missing, %s is de link to Font Awesome plugin."
 msgid "Social Divi needs the Font Awesome plugin to work properly. Please install and activate %s first."
 msgstr ""
 
-#: src/actions/set-available-icons.php:15
+#: src/actions/set-available-icons.php:19
 msgctxt "Icon name in the interface"
 msgid "Facebook"
 msgstr ""
 
-#: src/actions/set-available-icons.php:21
+#: src/actions/set-available-icons.php:24
 msgctxt "Icon name in the interface"
 msgid "Twitter"
 msgstr ""
 
-#: src/actions/set-available-icons.php:27
+#: src/actions/set-available-icons.php:29
 msgctxt "Icon name in the interface"
 msgid "LinkedIn"
 msgstr ""
 
-#: src/actions/set-available-icons.php:33
+#: src/actions/set-available-icons.php:34
 msgctxt "Icon name in the interface"
 msgid "YouTube"
 msgstr ""
@@ -60,67 +64,67 @@ msgctxt "Icon name in the interface"
 msgid "Vimeo"
 msgstr ""
 
-#: src/actions/set-available-icons.php:45
+#: src/actions/set-available-icons.php:44
 msgctxt "Icon name in the interface"
 msgid "Medium"
 msgstr ""
 
-#: src/actions/set-available-icons.php:51
+#: src/actions/set-available-icons.php:49
 msgctxt "Icon name in the interface"
 msgid "Tumblr"
 msgstr ""
 
-#: src/actions/set-available-icons.php:57
+#: src/actions/set-available-icons.php:54
 msgctxt "Icon name in the interface"
 msgid "Pinterest"
 msgstr ""
 
-#: src/actions/set-available-icons.php:63
+#: src/actions/set-available-icons.php:59
 msgctxt "Icon name in the interface"
 msgid "Instagram"
 msgstr ""
 
-#: src/actions/set-available-icons.php:69
+#: src/actions/set-available-icons.php:64
 msgctxt "Icon name in the interface"
 msgid "Snapchat"
 msgstr ""
 
-#: src/actions/set-available-icons.php:75
+#: src/actions/set-available-icons.php:69
 msgctxt "Icon name in the interface"
 msgid "Periscope"
 msgstr ""
 
-#: src/actions/set-available-icons.php:81
+#: src/actions/set-available-icons.php:74
 msgctxt "Icon name in the interface"
 msgid "SoundCloud"
 msgstr ""
 
-#: src/actions/set-available-icons.php:87
+#: src/actions/set-available-icons.php:79
 msgctxt "Icon name in the interface"
 msgid "Xing"
 msgstr ""
 
-#: src/actions/set-available-icons.php:93
+#: src/actions/set-available-icons.php:84
 msgctxt "Icon name in the interface"
 msgid "Behance"
 msgstr ""
 
-#: src/actions/set-available-icons.php:99
+#: src/actions/set-available-icons.php:89
 msgctxt "Icon name in the interface"
 msgid "Dribbble"
 msgstr ""
 
-#: src/actions/set-available-icons.php:105
+#: src/actions/set-available-icons.php:94
 msgctxt "Icon name in the interface"
 msgid "Flickr"
 msgstr ""
 
-#: src/actions/set-available-icons.php:111
+#: src/actions/set-available-icons.php:99
 msgctxt "Icon name in the interface"
 msgid "Github"
 msgstr ""
 
-#: src/actions/set-available-icons.php:116
+#: src/actions/set-available-icons.php:104
 msgctxt "Icon name in the interface"
 msgid "RSS"
 msgstr ""

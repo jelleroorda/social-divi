@@ -4,7 +4,7 @@
  * Plugin Name: SocialDivi
  * Plugin URI: https://github.com/jelleroorda/social-divi
  * Description: A simple extension on the social icons available in Divi. Requires the Font Awesome plugin to function.
- * Version: 0.1.0
+ * Version: 1.0.0
  * Author: Jelle Roorda
  * Author URI: https://roordaict.nl
  * Text Domain: social-divi
