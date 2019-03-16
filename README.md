@@ -1,6 +1,26 @@
 # Social Divi
 
-This plugin was made to easily add more social icons to your Wordpress websites using the [Divi theme](https://www.elegantthemes.com/gallery/divi/).
+This plugin was made to easily add more social icons to your Wordpress websites when using the [Divi theme](https://www.elegantthemes.com/gallery/divi/). By default Divi only supports 5 icons (Facebook, Twitter, Google+, Instagram, RSS).
+
+This plugin enables the following icons:
+* Facebook
+* Twitter
+* LinkedIn
+* YouTube
+* Vimeo
+* Medium
+* Tumblr
+* Pinterest
+* Instagram
+* Snapchat
+* Periscope
+* SoundCloud
+* Xing
+* Behance
+* Dribbble
+* Flickr
+* Github
+* RSS
 
 ## Installation
 
@@ -11,9 +31,9 @@ This plugin was made to easily add more social icons to your Wordpress websites 
 ## Usage
 
 After activating the plugin, you will see a 'Social Icons' tab in the 'Theme options' of Divi.
-You will be enable icons like you would normally do with the default icons (Facebook, Twitter, Google+, Instagram, RSS)
+You will be enable icons like you would normally do with the default icons.
 
-![](//i.imgur.com/nLnfz6v.png)
+![](https://i.imgur.com/nLnfz6v.png)
 
 __*Please note:*__ since plugins can not override theme templates, the icons get added to the existing icons in Divi. To prevent confusion, disable all icons in the 'General' tab.
 If you are able to add (or change) an existing child theme, simply empty out the `includes/social_icons.php` file in your child theme to prevent this altogether.
