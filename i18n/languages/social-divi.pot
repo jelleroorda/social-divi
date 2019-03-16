@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the SocialDivi plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: SocialDivi 1.0.0\n"
+"Project-Id-Version: SocialDivi 0.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-divi\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-03-09T15:21:53+00:00\n"
+"POT-Creation-Date: 2019-03-16T12:39:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.1.0\n"
 "X-Domain: social-divi\n"
@@ -19,7 +19,7 @@ msgid "SocialDivi"
 msgstr ""
 
 #. Description of the plugin
-msgid "A simple extension on the social icons available in Divi"
+msgid "A simple extension on the social icons available in Divi. Requires the Font Awesome plugin to function."
 msgstr ""
 
 #. Author of the plugin
@@ -30,37 +30,122 @@ msgstr ""
 msgid "https://roordaict.nl"
 msgstr ""
 
-#: src/theme-options.php:9
+#: social-divi.php:40
+msgctxt "Error message when Font Awesome plugin is missing, %s is de link to Font Awesome plugin."
+msgid "Social Divi needs the Font Awesome plugin to work properly. Please install and activate %s first."
+msgstr ""
+
+#: src/actions/set-available-icons.php:15
+msgctxt "Icon name in the interface"
+msgid "Facebook"
+msgstr ""
+
+#: src/actions/set-available-icons.php:21
+msgctxt "Icon name in the interface"
+msgid "Twitter"
+msgstr ""
+
+#: src/actions/set-available-icons.php:27
+msgctxt "Icon name in the interface"
+msgid "LinkedIn"
+msgstr ""
+
+#: src/actions/set-available-icons.php:33
+msgctxt "Icon name in the interface"
+msgid "YouTube"
+msgstr ""
+
+#: src/actions/set-available-icons.php:39
+msgctxt "Icon name in the interface"
+msgid "Vimeo"
+msgstr ""
+
+#: src/actions/set-available-icons.php:45
+msgctxt "Icon name in the interface"
+msgid "Medium"
+msgstr ""
+
+#: src/actions/set-available-icons.php:51
+msgctxt "Icon name in the interface"
+msgid "Tumblr"
+msgstr ""
+
+#: src/actions/set-available-icons.php:57
+msgctxt "Icon name in the interface"
+msgid "Pinterest"
+msgstr ""
+
+#: src/actions/set-available-icons.php:63
+msgctxt "Icon name in the interface"
+msgid "Instagram"
+msgstr ""
+
+#: src/actions/set-available-icons.php:69
+msgctxt "Icon name in the interface"
+msgid "Snapchat"
+msgstr ""
+
+#: src/actions/set-available-icons.php:75
+msgctxt "Icon name in the interface"
+msgid "Periscope"
+msgstr ""
+
+#: src/actions/set-available-icons.php:81
+msgctxt "Icon name in the interface"
+msgid "SoundCloud"
+msgstr ""
+
+#: src/actions/set-available-icons.php:87
+msgctxt "Icon name in the interface"
+msgid "Xing"
+msgstr ""
+
+#: src/actions/set-available-icons.php:93
+msgctxt "Icon name in the interface"
+msgid "Behance"
+msgstr ""
+
+#: src/actions/set-available-icons.php:99
+msgctxt "Icon name in the interface"
+msgid "Dribbble"
+msgstr ""
+
+#: src/actions/set-available-icons.php:105
+msgctxt "Icon name in the interface"
+msgid "Flickr"
+msgstr ""
+
+#: src/actions/set-available-icons.php:111
+msgctxt "Icon name in the interface"
+msgid "Github"
+msgstr ""
+
+#: src/actions/set-available-icons.php:116
+msgctxt "Icon name in the interface"
+msgid "RSS"
+msgstr ""
+
+#: src/actions/update-theme-options.php:10
 msgctxt "tab header in theme options"
 msgid "Social icons"
 msgstr ""
 
-#: src/theme-options.php:46
+#: src/actions/update-theme-options.php:52
 msgctxt "form field title"
 msgid "Enable %s"
 msgstr ""
 
-#: src/theme-options.php:50
+#: src/actions/update-theme-options.php:56
 msgctxt "form field description"
-msgid "Enabling this option will display an icon for %s in the header and footer"
+msgid "Enabling this option will display an icon for %s where Divi adds them (default: second header + footer)."
 msgstr ""
 
-#: src/theme-options.php:55
+#: src/actions/update-theme-options.php:61
 msgctxt "form field title"
 msgid "%s profile url"
 msgstr ""
 
-#: src/theme-options.php:59
+#: src/actions/update-theme-options.php:65
 msgctxt "form field description"
-msgid "The url to the profile for your %s account"
-msgstr ""
-
-#: src/options.php:14
-msgctxt "Icon name in the interface"
-msgid "soundcloud"
-msgstr ""
-
-#: src/options.php:18
-msgctxt "Icon name in the interface"
-msgid "facebook"
+msgid "The url to the profile for your %s account."
 msgstr ""

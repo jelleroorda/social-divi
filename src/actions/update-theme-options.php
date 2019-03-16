@@ -53,7 +53,7 @@ function add_options_to_social_divi_tab($options)
             "id" => "social_divi_{$icon['name']}_enabled",
             "type" => "checkbox2",
             "std" => "false",
-            "desc" => sprintf(_x('Enabling this option will display an icon for %s in the header and footer of your site.', 'form field description', 'social-divi'), $icon['translated_name']),
+            "desc" => sprintf(_x('Enabling this option will display an icon for %s where Divi adds them (default: second header + footer).', 'form field description', 'social-divi'), $icon['translated_name']),
         ]);
 
         // Add url for icon profile
