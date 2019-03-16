@@ -15,7 +15,7 @@ function add_social_divi_tab($tabs)
 /**
  * Add the content to our panel in the options page.
  * Because we are hooking on Divi's layout filter,
- * We don't have store the data ourselves.
+ * we don't have to store the data ourselves.
  */
 add_filter('et_epanel_layout_data', 'add_options_to_social_divi_tab', 10, 1);
 function add_options_to_social_divi_tab($options)
