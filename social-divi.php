@@ -44,11 +44,3 @@ function social_divi_needs_font_awesome()
 
 // Bootstrap plugin
 include_once dirname(__FILE__) . '/src/bootstrap.php';
-
-// Load font awesome
-add_action('wp_enqueue_scripts', 'social_divi_stylesheets');
-function social_divi_stylesheets()
-{
-    wp_enqueue_style('font-awesome-brands', 'https://use.fontawesome.com/releases/v5.7.2/css/brands.css');
-    wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css');
-}
