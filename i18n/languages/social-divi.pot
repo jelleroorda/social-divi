@@ -1,21 +1,21 @@
 # Copyright (C) 2019 Jelle Roorda
-# This file is distributed under the same license as the SocialDivi plugin.
+# This file is distributed under the same license as the Social Divi plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: SocialDivi 1.0.0\n"
+"Project-Id-Version: Social Divi 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-divi\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-03-16T13:53:24+00:00\n"
+"POT-Creation-Date: 2019-03-17T18:25:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.1.0\n"
 "X-Domain: social-divi\n"
 
 #. Plugin Name of the plugin
-msgid "SocialDivi"
+msgid "Social Divi"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -23,7 +23,7 @@ msgid "https://github.com/jelleroorda/social-divi"
 msgstr ""
 
 #. Description of the plugin
-msgid "A simple extension on the social icons available in Divi. Requires the Font Awesome plugin to function."
+msgid "A simple extension on the social icons available in Divi. Requires the <a href=\"https://wordpress.org/plugins/font-awesome/\">Font Awesome plugin</a> to function (for the icons)."
 msgstr ""
 
 #. Author of the plugin
