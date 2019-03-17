@@ -4,8 +4,8 @@
  * Add our panel to the default available panels
  * in the Divi theme options page.
  */
-add_filter('et_epanel_tab_names', 'add_social_divi_tab', 10, 1);
-function add_social_divi_tab($tabs)
+add_filter('et_epanel_tab_names', 'social_divi_add_main_tab_to_theme_options', 10, 1);
+function social_divi_add_main_tab_to_theme_options($tabs)
 {
     $tabs['social-icons'] = _x('Social icons', 'tab header in theme options', 'social-divi');
 
@@ -17,8 +17,8 @@ function add_social_divi_tab($tabs)
  * Because we are hooking on Divi's layout filter,
  * we don't have to store the data ourselves.
  */
-add_filter('et_epanel_layout_data', 'add_options_to_social_divi_tab', 10, 1);
-function add_options_to_social_divi_tab($options)
+add_filter('et_epanel_layout_data', 'social_divi_add_extra_options_to_theme_options', 10, 1);
+function social_divi_add_extra_options_to_theme_options($options)
 {
     global $social_divi_available_icons;
 
