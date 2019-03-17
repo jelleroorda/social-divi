@@ -4,7 +4,7 @@
  * Plugin Name: Social Divi
  * Plugin URI: https://github.com/jelleroorda/social-divi
  * Description: A simple extension on the social icons available in Divi. Requires the <a href="https://wordpress.org/plugins/font-awesome/">Font Awesome plugin</a> to function (for the icons).
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Jelle Roorda
  * Author URI: https://roordaict.nl
  * Text Domain: social-divi
@@ -22,11 +22,11 @@ if (!defined('SOCIAL_DIVI_PLUGIN_FILE')) {
 }
 
 // Let users know we need the font awesome plugin as a dependency
-add_action('admin_init', 'check_for_font_awesome');
-function check_for_font_awesome()
+add_action('admin_init', 'social_divi_ensure_font_awesome');
+function social_divi_ensure_font_awesome()
 {
     if (is_admin() && current_user_can('activate_plugins') && !is_plugin_active('font-awesome/font-awesome.php')) {
-        add_action('admin_notices', 'social_divi_needs_font_awesome');
+        add_action('admin_notices', 'social_divi_display_font_awesome_requirement_error');
 
         deactivate_plugins(plugin_basename(__FILE__));
 
@@ -37,7 +37,7 @@ function check_for_font_awesome()
 }
 
 // Displays a helpful message, to why the plugin wasn't successfully activated.
-function social_divi_needs_font_awesome()
+function social_divi_display_font_awesome_requirement_error()
 {
     ?><div class="error"><p><?php echo sprintf(esc_html(_x('Social Divi needs the Font Awesome plugin to work properly. Please install and activate %s first.', 'Error message when Font Awesome plugin is missing, %s is de link to Font Awesome plugin.', 'social-divi')), '<a href="' . admin_url('plugin-install.php?s=font+awesome&tab=search&type=term') . '">Font Awesome</a>'); ?></p></div><?php
 }
