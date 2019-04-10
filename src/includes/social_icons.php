@@ -1,6 +1,6 @@
 <?php global $social_divi_available_icons; ?>
 
-<ul class="et-social-icons">
+<ul class="et-social-icons social-divi-icons">
 
 <?php foreach ($social_divi_available_icons as $icon) : ?>
 	<?php if ('on' === et_get_option("social_divi_{$icon['name']}_enabled", 'off')) : ?>

@@ -35,9 +35,6 @@ You will be able to enable icons like you would normally do with the default ico
 
 ![](https://i.imgur.com/nLnfz6v.png)
 
-__*Please note:*__ since plugins can not override theme templates, the icons get added to the existing icons in Divi. To prevent confusion, disable all icons in the 'General' tab.
-If you are able to add (or change) an existing child theme, simply empty out the `includes/social_icons.php` file in your child theme to prevent this altogether.
-
 ## Contributing
 
 Contributions are welcome. Please create one pull request for every feature/bugfix/translation you make.
