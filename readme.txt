@@ -14,33 +14,31 @@ This plugin adds the ability to add more social icons to your website when using
 This plugin was made to easily add more social icons to your Wordpress websites when using the [Divi theme](https://www.elegantthemes.com/gallery/divi/). By default Divi only supports 5 icons (Facebook, Twitter, Google+, Instagram, RSS).
 
 This plugin enables the following icons:
-* Facebook
-* Twitter
-* LinkedIn
-* YouTube
-* Vimeo
-* Medium
-* Tumblr
-* Pinterest
-* Instagram
-* Snapchat
-* Periscope
-* SoundCloud
-* Xing
-* Behance
-* Dribbble
-* Flickr
-* Github
-* RSS
+- Facebook
+- Twitter
+- LinkedIn
+- YouTube
+- Vimeo
+- Medium
+- Tumblr
+- Pinterest
+- Instagram
+- Snapchat
+- Periscope
+- SoundCloud
+- Xing
+- Behance
+- Dribbble
+- Flickr
+- Github
+- RSS
 
 ### Usage
 
-After activating the plugin, you will see a \'Social Icons\' tab in the \'Theme options\' of Divi.
+After activating the plugin, you will see a 'Social Icons' tab in the 'Theme options' of Divi.
 You will be able to enable icons like you would normally do with the default icons.
 
-\"screenshot
-
-__*Please note:*__ since plugins can not override theme templates, the icons get added to the existing icons in Divi. To prevent confusion, disable all icons in the \'General\' tab.
+__*Please note:*__ since plugins can not override theme templates, the icons get added to the existing icons in Divi. To prevent confusion, disable all icons in the 'General' tab.
 If you are able to add (or change) an existing child theme, simply empty out the `includes/social_icons.php` file in your child theme to prevent this altogether.
 
 ### Contributing
@@ -54,8 +52,8 @@ Contributions are welcome. Please create one pull request for every feature/bugf
 
 == Frequently Asked Questions ==
 # Where can I view the new options?
-* Click on \'theme options\' in the \'Divi\' menu in the admin interface.
-* Click on the new \'Social Icons\' tab.
+* Click on 'Theme Options' in the 'Divi' menu in the admin interface.
+* Click on the new 'Social Icons' tab.
 * Enable the switch for the icons you want to use.
 * Fill out the url to your profile account on the social media platform.
 

@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Fixed typo's in readme.txt, to improve readability of plugin information.
+
 ## [1.1.1] - 2019-04-10
 
 ### Added
