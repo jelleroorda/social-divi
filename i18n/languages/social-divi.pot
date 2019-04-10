@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-03-17T18:25:52+00:00\n"
+"POT-Creation-Date: 2019-04-10T12:18:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.1.0\n"
 "X-Domain: social-divi\n"
@@ -35,7 +35,7 @@ msgid "https://roordaict.nl"
 msgstr ""
 
 #: social-divi.php:42
-msgctxt "Error message when Font Awesome plugin is missing, %s is de link to Font Awesome plugin."
+msgctxt "Error message when Font Awesome plugin is missing, %s is the link to Font Awesome plugin."
 msgid "Social Divi needs the Font Awesome plugin to work properly. Please install and activate %s first."
 msgstr ""
 
@@ -127,6 +127,30 @@ msgstr ""
 #: src/actions/set-available-icons.php:104
 msgctxt "Icon name in the interface"
 msgid "RSS"
+msgstr ""
+
+#: src/actions/add-links-to-plugin-meta.php:14
+msgid "Rate us:"
+msgstr ""
+
+#: src/actions/add-links-to-plugin-meta.php:16
+msgid "Sucks!"
+msgstr ""
+
+#: src/actions/add-links-to-plugin-meta.php:19
+msgid "Okay"
+msgstr ""
+
+#: src/actions/add-links-to-plugin-meta.php:22
+msgid "Does the job"
+msgstr ""
+
+#: src/actions/add-links-to-plugin-meta.php:25
+msgid "Great"
+msgstr ""
+
+#: src/actions/add-links-to-plugin-meta.php:28
+msgid "Superb!"
 msgstr ""
 
 #: src/actions/update-theme-options.php:10
