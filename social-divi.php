@@ -39,7 +39,7 @@ function social_divi_ensure_font_awesome()
 // Displays a helpful message, to why the plugin wasn't successfully activated.
 function social_divi_display_font_awesome_requirement_error()
 {
-    ?><div class="error"><p><?php echo sprintf(esc_html(_x('Social Divi needs the Font Awesome plugin to work properly. Please install and activate %s first.', 'Error message when Font Awesome plugin is missing, %s is de link to Font Awesome plugin.', 'social-divi')), '<a href="' . admin_url('plugin-install.php?s=font+awesome&tab=search&type=term') . '">Font Awesome</a>'); ?></p></div><?php
+    ?><div class="error"><p><?php echo sprintf(esc_html(_x('Social Divi needs the Font Awesome plugin to work properly. Please install and activate %s first.', 'Error message when Font Awesome plugin is missing, %s is the link to Font Awesome plugin.', 'social-divi')), '<a href="' . admin_url('plugin-install.php?s=font+awesome&tab=search&type=term') . '">Font Awesome</a>'); ?></p></div><?php
 }
 
 // Bootstrap plugin
