@@ -1,8 +1,8 @@
 === Social Divi ===
 Contributors: jifuss
 Tags: divi, social media, icons, social
-Requires at least: 5.1.1
-Tested up to: 5.1.1
+Requires at least: 5.1
+Tested up to: 5.2
 Requires PHP: 5.4
 Stable tag: 1.1.1
 License: GNU GPL 3 or later
