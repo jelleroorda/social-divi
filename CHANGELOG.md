@@ -6,20 +6,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-- Some javascript that will remove the default Elegant Themes icon list that comes with Divi. This is to prevent duplicate icons and confusion for users.
+## [1.1.2] - 2019-09-13
 
 ### Changed
-- Fixed typo's in readme.txt, to improve readability of plugin information.
+- Updated the tested up to tag to version 5.2. (Thanks @warengonzaga!)
+- Improved the README with a link to the git repository.
 
 ## [1.1.1] - 2019-04-10
 
 ### Added
 - Added the changelog.
+- Some javascript that will remove the default Elegant Themes icon list that comes with Divi. This is to prevent duplicate icons and confusion for users.
 
 ### Changed
 - Updated the version number in social-divi.php
 - Updated the version number in readme.txt
+- Fixed typo's in readme.txt, to improve readability of plugin information.
 
 ## [1.1.0] - 2019-04-10
 
