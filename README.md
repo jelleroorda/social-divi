@@ -37,4 +37,4 @@ You will be able to enable icons like you would normally do with the default ico
 
 ## Contributing
 
-Contributions are welcome. Please create one pull request for every feature/bugfix/translation you make.
+Contributions are welcome. Please create one pull request for every feature/bugfix/translation you make. The repository can be found at [Github](https://github.com/jelleroorda/social-divi)

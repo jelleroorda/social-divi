@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 - Updated the tested up to tag to version 5.2. (Thanks @warengonzaga!)
+- Improved the README with a link to the git repository.
 
 ## [1.1.1] - 2019-04-10
 
