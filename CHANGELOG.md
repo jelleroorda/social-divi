@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.3] - 2020-03-27
+
+### Changed
+- Updated the tested up to tag to version 5.3.
+- Fixed incompatibility issue with the latest version of Font Awesome.
+
 ## [1.1.2] - 2019-09-13
 
 ### Changed
