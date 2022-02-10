@@ -3,7 +3,7 @@ Contributors: jifuss
 Donate link: https://www.paypal.com/paypalme/jelleroorda
 Tags: divi, social media, icons, social
 Requires at least: 5.1
-Tested up to: 5.6
+Tested up to: 5.9
 Requires PHP: 5.4
 Stable tag: 1.1.3
 License: GNU GPL 3 or later
@@ -13,7 +13,7 @@ This plugin adds the ability to add more social icons to your website when using
 
 == Description ==
 This plugin was made to easily add more social icons to your Wordpress websites when using the [Divi theme](https://www.elegantthemes.com/gallery/divi/). By default Divi only supports 5 icons (Facebook, Twitter, Google+, Instagram, RSS).
-Latest test was run with WordPress 5.6.2 and Font Awesome 4.0.0-rc21, however, it should also work with older versions.
+Latest test was run with WordPress 5.9 and Font Awesome 4.1.1, however, it should also work with older versions.
 
 This plugin enables the following icons:
 - Facebook
