@@ -6,10 +6,10 @@ global $social_divi_available_icons;
  * List of icons we want to enable in the theme options
  *
  * name: The name of the font awesome icon; also used for storing theme options.
- * 
- * fa_primary: The font awesome main library. 
+ *
+ * fa_primary: The font awesome main library.
  * > Example: for Facebook you need the classes "fab fa-facebook-f", so: name='facebook-f', fa_primary="fab"
- * 
+ *
  * translated_name: The name of the icon in the interface
  */
 $social_divi_available_icons = [
@@ -62,6 +62,11 @@ $social_divi_available_icons = [
         'name' => 'snapchat',
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Snapchat', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
+        'name' => 'tiktok',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('TikTok', 'Icon name in the interface', 'social-divi'),
     ],
     [
         'name' => 'periscope',
