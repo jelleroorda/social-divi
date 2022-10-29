@@ -3,6 +3,7 @@
 This plugin was made to easily add more social icons to your Wordpress websites when using the [Divi theme](https://www.elegantthemes.com/gallery/divi/). By default Divi only supports 5 icons (Facebook, Twitter, Google+, Instagram, RSS).
 
 This plugin enables the following icons:
+* WhatsApp
 * Facebook
 * Twitter
 * LinkedIn

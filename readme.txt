@@ -5,7 +5,7 @@ Tags: divi, social media, icons, social
 Requires at least: 5.1
 Tested up to: 6.0
 Requires PHP: 5.4
-Stable tag: 1.3.0
+Stable tag: 1.4.0
 License: GNU GPL 3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -16,6 +16,7 @@ This plugin was made to easily add more social icons to your Wordpress websites 
 Latest test was run with WordPress 6.0 and Font Awesome 4.2.0, however, it should also work with older versions.
 
 This plugin enables the following icons:
+- WhatsApp
 - Facebook
 - Twitter
 - LinkedIn

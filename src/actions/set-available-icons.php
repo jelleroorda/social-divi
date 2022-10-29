@@ -14,6 +14,11 @@ global $social_divi_available_icons;
  */
 $social_divi_available_icons = [
     [
+        'name' => 'whatsapp',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('WhatsApp', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
         'name' => 'facebook-f',
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Facebook', 'Icon name in the interface', 'social-divi'),
