@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2022-12-27
+
+### Added
+- Added the Discord icon
+
 ## [1.4.0] - 2022-10-29
 
 ### Added
