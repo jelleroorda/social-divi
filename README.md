@@ -22,6 +22,7 @@ This plugin enables the following icons:
 * Dribbble
 * Flickr
 * Github
+* Discord
 * Houzz
 * RSS
 

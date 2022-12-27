@@ -108,7 +108,12 @@ $social_divi_available_icons = [
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Github', 'Icon name in the interface', 'social-divi'),
     ],
-   [
+    [
+        'name' => 'discord',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('Discord', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
         'name' => 'houzz',
         'fa_primary' => 'fa',
         'translated_name' =>  _x('Houzz', 'Icon name in the interface', 'social-divi'),
