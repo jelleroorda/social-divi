@@ -30,11 +30,13 @@ This plugin enables the following icons:
 - TikTok
 - Periscope
 - SoundCloud
+- Spotify
+- Apple
 - Xing
 - Behance
 - Dribbble
 - Flickr
-- Github
+- GitHub
 - Discord
 - Houzz
 - RSS
