@@ -79,6 +79,11 @@ $social_divi_available_icons = [
         'translated_name' =>  _x('TikTok', 'Icon name in the interface', 'social-divi'),
     ],
     [
+        'name' => 'twitch',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('Twitch', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
         'name' => 'periscope',
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Periscope', 'Icon name in the interface', 'social-divi'),
