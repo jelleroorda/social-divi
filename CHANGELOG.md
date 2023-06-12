@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Added the Telegram icon
+
 ## [1.6.0] - 2023-06-12
 
 ### Added

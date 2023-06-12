@@ -69,6 +69,11 @@ $social_divi_available_icons = [
         'translated_name' =>  _x('Snapchat', 'Icon name in the interface', 'social-divi'),
     ],
     [
+        'name' => 'telegram',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('Telegram', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
         'name' => 'tiktok',
         'fa_primary' => 'fab',
         'translated_name' =>  _x('TikTok', 'Icon name in the interface', 'social-divi'),
