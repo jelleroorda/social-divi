@@ -7,7 +7,7 @@
 add_filter('et_epanel_tab_names', 'social_divi_add_main_tab_to_theme_options', 10, 1);
 function social_divi_add_main_tab_to_theme_options($tabs)
 {
-    $tabs['social-icons'] = _x('Social icons', 'tab header in theme options', 'social-divi');
+    $tabs['social-icons'] = _x('Social Icons', 'tab header in theme options', 'social-divi');
 
     return $tabs;
 }
@@ -53,16 +53,16 @@ function social_divi_add_extra_options_to_theme_options($options)
             "id" => "social_divi_{$icon['name']}_enabled",
             "type" => "checkbox2",
             "std" => "false",
-            "desc" => sprintf(_x('Enabling this option will display an icon for %s where Divi adds them (default: second header + footer).', 'form field description', 'social-divi'), $icon['translated_name']),
+            "desc" => sprintf(_x('Enabling this option will display an icon for %s where Divi adds them (default: secondary header + footer).', 'form field description', 'social-divi'), $icon['translated_name']),
         ]);
 
         // Add url for icon profile
         array_push($additional_tab_options, [
-            "name" => sprintf(_x('%s profile url', 'form field title', 'social-divi'), $icon['translated_name']),
+            "name" => sprintf(_x('%s profile URL', 'form field title', 'social-divi'), $icon['translated_name']),
             "id" => "social_divi_{$icon['name']}_url",
             "type" => "text",
             "std" => "",
-            "desc" => sprintf(_x('The url to the profile for your %s account.', 'form field description', 'social-divi'), $icon['translated_name']),
+            "desc" => sprintf(_x('The URL to your %s profile/account.', 'form field description', 'social-divi'), $icon['translated_name']),
             "[validation_type]" => "url",
         ]);
     }

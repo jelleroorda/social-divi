@@ -84,6 +84,16 @@ $social_divi_available_icons = [
         'translated_name' =>  _x('SoundCloud', 'Icon name in the interface', 'social-divi'),
     ],
     [
+        'name' => 'spotify',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('Spotify', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
+        'name' => 'apple',
+        'fa_primary' => 'fab',
+        'translated_name' =>  _x('Apple', 'Icon name in the interface', 'social-divi'),
+    ],
+    [
         'name' => 'xing',
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Xing', 'Icon name in the interface', 'social-divi'),
@@ -106,7 +116,7 @@ $social_divi_available_icons = [
     [
         'name' => 'github',
         'fa_primary' => 'fab',
-        'translated_name' =>  _x('Github', 'Icon name in the interface', 'social-divi'),
+        'translated_name' =>  _x('GitHub', 'Icon name in the interface', 'social-divi'),
     ],
     [
         'name' => 'discord',
