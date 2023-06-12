@@ -14,7 +14,9 @@ This plugin enables the following icons:
 * Pinterest
 * Instagram
 * Snapchat
+* Telegram
 * TikTok
+* Twitch
 * Periscope
 * SoundCloud
 * Spotify
