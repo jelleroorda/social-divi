@@ -3,7 +3,7 @@ Contributors: jifuss
 Donate link: https://www.paypal.com/paypalme/jelleroorda
 Tags: divi, social media, icons, social
 Requires at least: 5.1
-Tested up to: 6.2
+Tested up to: 6.5
 Requires PHP: 5.4
 Stable tag: 1.7.0
 License: GNU GPL 3 or later
