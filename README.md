@@ -6,6 +6,8 @@ This plugin enables the following icons:
 * WhatsApp
 * Facebook
 * Twitter
+* X (Twitter)
+* Bluesky
 * LinkedIn
 * YouTube
 * Vimeo
