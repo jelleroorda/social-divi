@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Added the Bluesky icon
+- Added the X (Twitter) icon
+
 ## [1.7.0] - 2023-06-12
 
 ### Added
