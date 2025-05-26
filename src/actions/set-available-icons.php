@@ -28,12 +28,12 @@ $social_divi_available_icons = [
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Twitter', 'Icon name in the interface', 'social-divi'),
     ],
-	    [
+    [
         'name' => 'x-twitter',
         'fa_primary' => 'fab',
-        'translated_name' =>  _x('X', 'Icon name in the interface', 'social-divi'),
+        'translated_name' =>  _x('X (formerly Twitter)', 'Icon name in the interface', 'social-divi'),
     ],
-	    [
+    [
         'name' => 'bluesky',
         'fa_primary' => 'fab',
         'translated_name' =>  _x('Bluesky', 'Icon name in the interface', 'social-divi'),
