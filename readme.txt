@@ -3,7 +3,7 @@ Contributors: jifuss
 Donate link: https://www.paypal.com/paypalme/jelleroorda
 Tags: divi, social media, icons, social
 Requires at least: 5.1
-Tested up to: 6.5
+Tested up to: 6.8
 Requires PHP: 5.4
 Stable tag: 1.8.0
 License: GNU GPL 3 or later
@@ -77,6 +77,10 @@ By default this is in the footer, and in the secondary menu bar.
 3. Changing the colors through the Theme Customizer.
 
 == Changelog ==
+
+= 1.8.0 - 2025-05-26 =
+* Added the Bluesky icon
+* Added the X (Twitter) icon
 
 = 1.7.0 - 2023-06-12 =
 * Added the Telegram icon
