@@ -5,7 +5,7 @@ Tags: divi, social media, icons, social
 Requires at least: 5.1
 Tested up to: 6.5
 Requires PHP: 5.4
-Stable tag: 1.7.0
+Stable tag: 1.8.0
 License: GNU GPL 3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
