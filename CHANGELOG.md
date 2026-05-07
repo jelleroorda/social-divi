@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.8.1] - 2026-06-07
+
+### Fixed
+- Fixed translations loading too early, filling the debug log.
+
 ## [1.8.0] - 2025-05-26
 Note: you need to use Font Awesome 6 for these icons to work.
 
