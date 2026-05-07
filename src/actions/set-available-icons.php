@@ -1,7 +1,5 @@
 <?php
 
-global $social_divi_available_icons;
-
 /**
  * List of icons we want to enable in the theme options
  *
@@ -12,7 +10,10 @@ global $social_divi_available_icons;
  *
  * translated_name: The name of the icon in the interface
  */
-$social_divi_available_icons = [
+add_action('init', function () {
+    global $social_divi_available_icons;
+
+    $social_divi_available_icons = [
     [
         'name' => 'whatsapp',
         'fa_primary' => 'fab',
@@ -154,3 +155,4 @@ $social_divi_available_icons = [
         'translated_name' =>  _x('RSS', 'Icon name in the interface', 'social-divi'),
     ],
 ];
+});
